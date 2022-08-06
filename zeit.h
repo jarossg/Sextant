@@ -8,7 +8,6 @@ void initTime()
     Serial.print(".");
     delay(500);
   }
-
   Serial.println("aktuelle Zeit setzen");
   if (rtc.lostPower())
   {
